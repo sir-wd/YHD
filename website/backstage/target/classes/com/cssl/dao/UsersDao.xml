@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cssl.dao.UsersDao">
+
+    <select id="Log" resultType="int">
+        SELECT COUNT(1) FROM users WHERE U_name=#{name} AND U_password=#{pass}
+    </select>
+</mapper>

@@ -1,0 +1,19 @@
+server:
+  port: 98
+
+mybatis:
+  #配置xml路径
+  mapper-locations: classpath:com/cssl/dao/**/*.xml
+  #配置映射类所在包
+  type-aliases-package: com.cssl.pojo
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///website?serverTimezone=UTC
+    username: root
+    password: 123
+  application:
+    #微服务名
+     name: service

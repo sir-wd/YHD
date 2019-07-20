@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/backstage/backstage.iml" filepath="$PROJECT_DIR$/backstage/backstage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comm/comm.iml" filepath="$PROJECT_DIR$/comm/comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/foreground/foreground.iml" filepath="$PROJECT_DIR$/foreground/foreground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website.iml" filepath="$PROJECT_DIR$/website.iml" />
+    </modules>
+  </component>
+</project>
